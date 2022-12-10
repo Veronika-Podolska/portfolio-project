@@ -98,14 +98,17 @@ h3 {
   }
   .developer-word {
     margin-left: 0px;
-    font-size: 80px;
+    font-size: 50px;
   }
   h1,
   h3 {
-    font-size: 60px;
+    font-size: 50px;
+  }
+  h2 {
+    display: none;
   }
   .intro {
-    padding: 150px 0px 80px 0px;
+    padding: 120px 0px 60px 0px;
   }
   .app-preview {
     font-size: 22px;
