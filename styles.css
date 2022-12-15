@@ -157,3 +157,17 @@ h3 {
 .about-page .col-6 {
   margin-left: -50px;
 }
+.project-page-img {
+  border-radius: 50%;
+  max-width: 320px;
+  margin-bottom: 15px;
+  padding: 30px;
+  margin: 0px;
+}
+.project-container {
+  max-width: 100%;
+  margin: 40px 0px;
+}
+.project-info {
+  text-align: center;
+}
