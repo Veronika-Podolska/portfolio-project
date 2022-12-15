@@ -114,4 +114,46 @@ h3 {
     max-width: 200px;
     padding: 15px;
   }
+  .about-page .col-6 {
+    display: none;
+  }
+  .about-page p {
+    text-align: center;
+  }
+
+  .about-me {
+    background-color: black;
+    margin: 120px 0px 0px 0px;
+  }
+  .about-links {
+    display: flex;
+    justify-content: center;
+  }
+  .about-links a {
+    padding: 40px 50px 40px 50px;
+  }
+}
+.about-page {
+  background-color: black;
+  color: white;
+  padding: 160px 0px 110px 0px;
+}
+.about-page h1 {
+  text-transform: none;
+}
+.about-links {
+  display: flex;
+}
+.about-links a {
+  padding: 40px 50px 0px 0px;
+}
+.about-links .fa-brands {
+  color: #7271b3;
+  font-size: 30px;
+}
+.about-page .content {
+  margin-top: 10px;
+}
+.about-page .col-6 {
+  margin-left: -50px;
 }
