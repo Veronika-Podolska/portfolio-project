@@ -132,6 +132,18 @@ h3 {
   .about-links a {
     padding: 40px 50px 40px 50px;
   }
+  h1.projects-h1 {
+    font-size: 40px;
+    margin-top: 50px;
+  }
+  .img-fluid.project-page-img {
+    border-radius: 50%;
+    max-width: 200px;
+    padding: 10px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
 }
 .about-page {
   background-color: black;
@@ -160,9 +172,10 @@ h3 {
 .project-page-img {
   border-radius: 50%;
   max-width: 320px;
-  margin-bottom: 15px;
   padding: 30px;
-  margin: 0px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 10px;
 }
 .project-container {
   max-width: 100%;
@@ -170,4 +183,13 @@ h3 {
 }
 .project-info {
   text-align: center;
+}
+.projects-h1 {
+  margin-top: 130px;
+  text-align: center;
+  font-size: 85px;
+  text-transform: uppercase;
+}
+.project-info p {
+  color: #222222;
 }
