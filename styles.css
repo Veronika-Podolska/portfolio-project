@@ -82,6 +82,78 @@ h3 {
   text-decoration: none;
   color: #222222;
 }
+
+.about-page {
+  background-color: black;
+  color: white;
+  padding: 160px 0px 110px 0px;
+}
+.about-page h1 {
+  text-transform: none;
+}
+.about-links {
+  display: flex;
+}
+.about-links a {
+  padding: 40px 50px 0px 0px;
+}
+.about-links .fa-brands {
+  color: #7271b3;
+  font-size: 30px;
+}
+.about-page .content {
+  margin-top: 10px;
+}
+.about-page .col-6 {
+  margin-left: -50px;
+}
+.project-page-img {
+  border-radius: 50%;
+  max-width: 320px;
+  padding: 30px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+.project-container {
+  max-width: 100%;
+  margin: 40px 0px;
+}
+.project-info {
+  text-align: center;
+}
+.projects-h1 {
+  margin-top: 130px;
+  text-align: center;
+  font-size: 85px;
+  text-transform: uppercase;
+}
+.project-info p {
+  color: #222222;
+}
+.contact-body {
+  background-color: black;
+  color: white;
+  margin-top: 250px;
+}
+form {
+  color: #7271b3;
+}
+.form-button {
+  background-color: #7271b3;
+  border: 1px solid #7271b3;
+}
+.contact-container h1 {
+  font-size: 70px;
+}
+.contact-container a {
+  color: white;
+  text-decoration: none;
+}
+.contact-container p {
+  color: #6c757d;
+  font-size: 14px;
+}
 @media (max-width: 900px) {
   h1,
   h2,
@@ -144,52 +216,10 @@ h3 {
     margin: 0 auto;
     margin-bottom: 10px;
   }
-}
-.about-page {
-  background-color: black;
-  color: white;
-  padding: 160px 0px 110px 0px;
-}
-.about-page h1 {
-  text-transform: none;
-}
-.about-links {
-  display: flex;
-}
-.about-links a {
-  padding: 40px 50px 0px 0px;
-}
-.about-links .fa-brands {
-  color: #7271b3;
-  font-size: 30px;
-}
-.about-page .content {
-  margin-top: 10px;
-}
-.about-page .col-6 {
-  margin-left: -50px;
-}
-.project-page-img {
-  border-radius: 50%;
-  max-width: 320px;
-  padding: 30px;
-  display: block;
-  margin: 0 auto;
-  margin-bottom: 10px;
-}
-.project-container {
-  max-width: 100%;
-  margin: 40px 0px;
-}
-.project-info {
-  text-align: center;
-}
-.projects-h1 {
-  margin-top: 130px;
-  text-align: center;
-  font-size: 85px;
-  text-transform: uppercase;
-}
-.project-info p {
-  color: #222222;
+  .contact-body {
+    margin-top: 100px;
+  }
+  .contact-container h1 {
+    font-size: 50px;
+  }
 }
