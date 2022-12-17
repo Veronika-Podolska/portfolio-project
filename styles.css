@@ -1,7 +1,7 @@
 .intro {
   background-color: black;
   color: white;
-  padding: 250px 0px 100px 45px;
+  padding: 180px 0px 100px 45px;
 }
 h1 {
   font-family: "Archivo Black", sans-serif;
@@ -41,17 +41,6 @@ h2 {
   font-size: 18px;
   margin-bottom: 120px;
   color: #e2e2e2d3;
-}
-.navigation-links {
-  text-align: end;
-  margin-right: 60px;
-}
-.navigation-links a {
-  text-decoration: none;
-  color: white;
-  padding: 30px;
-  text-transform: uppercase;
-  font-weight: 500;
 }
 
 h3 {
@@ -154,16 +143,27 @@ form {
   color: #6c757d;
   font-size: 14px;
 }
+.nav a {
+  color: white;
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  padding: 30px 15px;
+  display: flex;
+  font-weight: 500;
+  font-size: 17px;
+}
+.nav {
+  background-color: black;
+  display: flex;
+  justify-content: end;
+  padding-right: 40px;
+}
 @media (max-width: 900px) {
   h1,
   h2,
-  .navigation-links,
   h3 {
     text-align: center;
     margin-bottom: 30px;
-  }
-  .navigation-links {
-    margin-right: 0px;
   }
   .developer-word {
     margin-left: 0px;
@@ -177,7 +177,7 @@ form {
     display: none;
   }
   .intro {
-    padding: 120px 0px 60px 0px;
+    padding: 80px 0px 100px 0px;
   }
   .app-preview {
     font-size: 22px;
@@ -192,7 +192,6 @@ form {
   .about-page p {
     text-align: center;
   }
-
   .about-me {
     background-color: black;
     margin: 120px 0px 0px 0px;
@@ -221,5 +220,13 @@ form {
   }
   .contact-container h1 {
     font-size: 50px;
+  }
+  .nav {
+    display: flex;
+    justify-content: center;
+    padding-right: 0px;
+  }
+  .nav a {
+    font-size: 14px;
   }
 }
