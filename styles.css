@@ -89,6 +89,11 @@ h3 {
 .about-links .fa-brands {
   color: #7271b3;
   font-size: 30px;
+  transition: all 100ms ease-in-out;
+}
+.about-links .fa-brands:hover {
+  color: white;
+  font-size: 32px;
 }
 .about-page .content {
   margin-top: 10px;
