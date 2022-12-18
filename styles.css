@@ -152,11 +152,28 @@ form {
   font-weight: 500;
   font-size: 17px;
 }
+.nav a:hover {
+  color: #7271b3;
+}
 .nav {
   background-color: black;
   display: flex;
   justify-content: end;
   padding-right: 40px;
+}
+.contact-links {
+  display: flex;
+  justify-content: center;
+}
+.contact-links a {
+  padding: 35px 15px 0px 15px;
+  color: #7271b3;
+  font-size: 22px;
+  transition: all 100ms ease-in-out;
+}
+.contact-links a:hover {
+  color: white;
+  font-size: 24px;
 }
 @media (max-width: 900px) {
   h1,
@@ -228,5 +245,8 @@ form {
   }
   .nav a {
     font-size: 14px;
+  }
+  .contact-links a {
+    padding: 20px 15px 0px 15px;
   }
 }
