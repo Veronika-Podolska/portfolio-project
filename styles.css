@@ -75,7 +75,7 @@ h3 {
 .about-page {
   background-color: black;
   color: white;
-  padding: 160px 0px 110px 0px;
+  padding: 130px 0px 110px 0px;
 }
 .about-page h1 {
   text-transform: none;
@@ -112,7 +112,7 @@ h3 {
   text-align: center;
 }
 .projects-h1 {
-  margin-top: 130px;
+  margin-top: 78px;
   text-align: center;
   font-size: 85px;
   text-transform: uppercase;
@@ -123,7 +123,9 @@ h3 {
 .contact-body {
   background-color: black;
   color: white;
-  margin-top: 250px;
+}
+.container.contact-container {
+  padding-top: 190px;
 }
 form {
   color: #7271b3;
@@ -152,8 +154,9 @@ form {
   font-weight: 500;
   font-size: 17px;
 }
-.nav a:hover {
-  color: #7271b3;
+.nav a:hover,
+a .text-black:hover {
+  color: #7271b3 !important;
 }
 .nav {
   background-color: black;
@@ -218,10 +221,11 @@ form {
   }
   .about-page p {
     text-align: center;
+    margin-top: 40px;
   }
   .about-me {
     background-color: black;
-    margin: 120px 0px 0px 0px;
+    margin: 20px 0px 0px 0px;
   }
   .about-links {
     display: flex;
@@ -232,7 +236,7 @@ form {
   }
   h1.projects-h1 {
     font-size: 40px;
-    margin-top: 50px;
+    margin-top: 30px;
   }
   .img-fluid.project-page-img {
     border-radius: 50%;
@@ -243,7 +247,10 @@ form {
     margin-bottom: 10px;
   }
   .contact-body {
-    margin-top: 100px;
+    margin-top: 10px;
+  }
+  .container.contact-container {
+    padding-top: 60px;
   }
   .contact-container h1 {
     font-size: 50px;
